@@ -122,6 +122,7 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
     'gunicorn',
     'south',
+    'django_extensions',
     '{{ project_name }}',
 )
 
