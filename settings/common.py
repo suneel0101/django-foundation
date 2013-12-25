@@ -124,6 +124,7 @@ INSTALLED_APPS = (
     'south',
     'django_extensions',
     '{{ project_name }}',
+    'raven.contrib.django.raven_compat',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -154,3 +155,5 @@ LOGGING = {
         },
     }
 }
+
+WSGI_APPLICATION = "wsgi.application"
