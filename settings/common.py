@@ -123,6 +123,7 @@ INSTALLED_APPS = (
     'gunicorn',
     'south',
     'django_extensions',
+    'util',
     '{{ project_name }}',
     'raven.contrib.django.raven_compat',
 )
