@@ -158,3 +158,5 @@ LOGGING = {
 }
 
 WSGI_APPLICATION = "wsgi.application"
+
+ALLOWED_HOSTS = ["*"]
