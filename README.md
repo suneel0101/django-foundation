@@ -1,2 +1,2 @@
-django-foundation
+{{ project_name }}
 =================
